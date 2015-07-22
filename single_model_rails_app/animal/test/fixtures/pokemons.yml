@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  power_level: 1
+  element_text: MyString
+
+two:
+  name: MyString
+  power_level: 1
+  element_text: MyString

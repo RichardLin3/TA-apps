@@ -11,14 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150720092844) do
+ActiveRecord::Schema.define(version: 20150722124407) do
 
   create_table "pokemons", force: :cascade do |t|
     t.string   "name"
     t.integer  "power_level"
+    t.string   "element_text"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
-    t.string   "element_text"
   end
 
 end
